@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(161, 49, 49);
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: rgb(80, 80, 122); 
+}
+
+header {
+    background-color: #573131;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.github-icon {
+    display: block;
+    text-align: center;
+    font-size: 50px; 
+    margin: 0 auto; 
+    padding: 5px; 
+    color: #f3e9e9; 
+}
+
+
+
+.profil-resmi {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
+    transition: transform 0.3s;
+}
+
+.profil-resmi:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8f4f4;
+}
+
+main {
+    padding: 52px;
+}
+
+section {
+    margin-bottom: 63px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+input[type="submit"] {
+    background-color: #251;
+    color: #aaa;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f3efef;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #ccc;
+    height: 15px;
+}
+
+.skill-level {
+    background-color: #251; 
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+footer {
+    background-color: #573131;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
